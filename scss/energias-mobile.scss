@@ -1,0 +1,90 @@
+@media only screen and (max-width:500px)
+{main {
+display: flex;
+justify-content: space-between;}
+
+main {h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;}
+}
+$margen1: 0 10px;
+$padding1: 20px;
+
+
+.energia-1 {display: flex;
+            justify-content: space-between;
+            margin: $padding1;
+            flex-direction: column;
+            text-align: left;
+            @include colorx;
+            padding-top: 100px;
+            text-align: center;
+
+}
+.energia-2{flex-wrap: wrap;
+.solar {
+            display: flex;
+            justify-content: space-between;
+            margin: $padding1;
+            flex-wrap: wrap;
+        .solar-texto {
+            
+            display: flex;
+            text-align: center;
+            flex: 1;
+            margin: $margen1;
+            padding: $padding1;
+       
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            min-width: 300px;
+            @include colorx;
+
+            
+        }.solar-img {
+            
+            max-width: 80%; 
+            margin: 0 auto; 
+            padding: $padding1; 
+
+            img {display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                @include sombra;}
+        }
+    }
+.cargador {
+        display: flex;
+        justify-content: space-between;
+        margin: $padding1;
+        flex-wrap: wrap;
+    .cargador-img {
+        
+        margin: $margen1;
+        padding: $padding1;
+        
+        
+        img {display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            @include sombra;}
+    }.cargador-texto {
+        min-width: 300px; 
+        display: flex;
+        text-align: center;
+        flex: 1;
+        margin: $margen1;
+        padding: $padding1;
+       
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        @include colorx;
+    }
+}
+}
+}

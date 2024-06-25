@@ -1,0 +1,30 @@
+body{
+    .navbar{
+            margin: 0;
+            padding: 0;
+            position: sticky;
+            z-index: 1; 
+            background-image: linear-gradient(to right,rgb(175, 193, 220),rgb(192, 224, 224),rgb(175, 193, 220));
+            
+            .container-fluid{
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+                            img{
+                                width: 100px;
+                                height: auto;
+                                }
+                            .collapse{
+                                .nav-link{
+                                    &:hover{color:rgb(196, 205, 214)}
+                                    &:hover{margin-left:10px}      
+                                    &:hover{margin-right:10px}
+                                    transition:1s;
+                                         }
+                                    }
+                            }
+                        }
+    }
+
+
+    

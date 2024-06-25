@@ -1,0 +1,21 @@
+@import"navbar.scss";
+@import"general.scss";
+
+
+@import"inicio.scss";
+@import"inicio-mobile.scss";
+
+@import"nosotros.scss";
+@import"nosotros-mobile.scss";
+
+@import"instalaciones.scss";
+
+@import"telecomunicaciones.scss";
+
+@import"energias.scss";
+@import"energias-mobile.scss";
+
+@import"contacto.scss";
+@import"contacto-mobile.scss";
+
+//sass --watch contenedora/scss/style.scss contenedora/css/style.css

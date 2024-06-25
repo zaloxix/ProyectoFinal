@@ -1,0 +1,112 @@
+@media only screen and (max-width:500px)
+{main{display: flex;
+    
+    flex-direction: column;  
+    
+    justify-content: center;
+    align-items: center;
+    .empresa{display: flex;
+    flex-direction: column;  
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+        h1{font-size: 150%;
+            @include colorx;
+            .energia19 {font-size: 200%;}
+        text-align: center;}
+        h3{width: 80%;
+            @include colorx;
+        text-align: center;}}
+    
+    .vision{display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 120px;
+        flex-wrap: wrap;
+        
+        
+        h1 {@include colorx;text-align: center;}
+        h2 {@include colorx;text-align: center;}
+        h4 {@include colorx;text-align: center;}
+        
+        .vision-1{min-width: 300px; 
+            
+            text-align: center;
+            flex: 1;
+            margin: 0 10px;
+            padding: 20px; }
+        
+        img {max-width: 75%;
+            height: auto;
+            margin:1%;
+            @include sombra;
+    
+        }
+    }
+    .inicios{display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        flex-wrap: wrap;
+        h1 {@include colorx;}
+        h2 {@include colorx;}
+        h4 {@include colorx;}
+            .inicios-1{text-align: center;
+            padding: 5%;}
+            img{max-width: 75%;
+                height: auto;
+                margin:1%;
+                @include sombra;}
+                
+    }
+    
+    
+    .equipo{display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        h1 {@include colorx;}
+        h2 {@include colorx;}
+        h4 {@include colorx;}
+        padding-bottom: 100px;
+        img {margin: 2rem;
+            max-width: 60%;
+            height: auto;
+            @include sombra;}
+    
+        .equipo-1{text-align: center;
+        display:flex;
+        flex-flow:wrap;
+        padding: 5%;
+        h1 {text-align: center;
+            width: 100%;}
+        }
+        }
+    
+        
+        h1 {@include colorx;}
+
+    .valores{display: flex;
+        flex-wrap: wrap;
+        min-width: 80px;
+        
+        
+        h2 {@include colorx;}
+    h4 {@include colorx;}
+    
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    
+        .transparencia{min-width: 80px;
+            padding: 2%;text-align: center;}
+        .lealtad{min-width: 80px;
+            padding: 2%;text-align: center;}
+        .aprendizaje{min-width: 80px;
+            padding: 2%;text-align: center;}
+        }
+    }
+    
+}
